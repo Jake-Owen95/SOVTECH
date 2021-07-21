@@ -32,7 +32,10 @@ const SearchPage = (props) => {
     <>
       <div class="container">
         <div class="grid">
-          <h1>Star Wars Films:</h1>
+          <div className="heading">
+            <h1>Star Wars Films:</h1>
+          </div>
+          
           <SearchBar 
             input={input} 
             onChange={updateInput}
