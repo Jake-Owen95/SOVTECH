@@ -1,8 +1,9 @@
 import React from 'react';
 
 const SearchBar = ({input:keyword,onChange:setKeyword}) => {
-  const BarStyling = {width:"20rem",background:"#F2F1F9", border:"none", padding:"0.5rem",};
+  const BarStyling = {width:"69rem", background:"#F2F1F9", border:"none", padding:"0.5rem", margin:"5px"};
   return (
+    
     <input
       className="" 
       style={BarStyling}
